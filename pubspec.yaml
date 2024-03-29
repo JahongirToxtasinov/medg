@@ -1,0 +1,62 @@
+name: medg
+description: "A new Flutter project."
+
+publish_to: 'none'
+
+version: 1.0.0+1
+
+environment:
+  sdk: '>=3.3.0 <4.0.0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+  cupertino_icons: ^1.0.6
+  equatable: ^2.0.5
+  flutter_bloc: ^8.1.5
+  shared_preferences: ^2.2.2
+  flutter_svg: ^2.0.10+1
+  get_it: ^7.6.7
+  firebase_auth: ^4.18.0
+  firebase_core: ^2.27.2
+  cloud_firestore: ^4.15.10
+  gap: ^3.0.1
+  table_calendar: ^3.1.1
+
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+  flutter_lints: ^3.0.0
+
+flutter:
+  uses-material-design: true
+
+  assets:
+     - assets/icons/bnb/
+     - assets/icons/login/
+     - assets/icons/main/
+     - assets/images/onboarding/
+
+  fonts:
+    - family: Barlow
+      fonts:
+        - asset: assets/fonts/Barlow-Light.ttf
+        - asset: assets/fonts/Barlow-LightItalic.ttf
+        - asset: assets/fonts/Barlow-Thin.ttf
+        - asset: assets/fonts/Barlow-ThinItalic.ttf
+        - asset: assets/fonts/Barlow-Regular.ttf
+        - asset: assets/fonts/Barlow-Italic.ttf
+        - asset: assets/fonts/Barlow-Medium.ttf
+        - asset: assets/fonts/Barlow-MediumItalic.ttf
+        - asset: assets/fonts/Barlow-SemiBold.ttf
+        - asset: assets/fonts/Barlow-SemiBoldItalic.ttf
+        - asset: assets/fonts/Barlow-Bold.ttf
+        - asset: assets/fonts/Barlow-BoldItalic.ttf
+        - asset: assets/fonts/Barlow-ExtraBold.ttf
+        - asset: assets/fonts/Barlow-ExtraBoldItalic.ttf
+        - asset: assets/fonts/Barlow-Black.ttf
+        - asset: assets/fonts/Barlow-BlackItalic.ttf
+

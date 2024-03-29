@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "799612640452",
+    "project_id": "medg-a0a7f",
+    "storage_bucket": "medg-a0a7f.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:799612640452:android:01c9f7ae45f6cbddc7bd91",
+        "android_client_info": {
+          "package_name": "com.example.medg"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAgcTb1tK6F5buWxR12GO4SBpizXb56MnQ"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
